@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ezon_bg_buy_watch"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ezon_bg_buy_watch_down"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:maxWidth="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ezon_ic_buy_watch" />
+
+        <ImageView
+            android:id="@+id/ezon_bg_buy_watch_down"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:maxWidth="300dp"
+            android:maxHeight="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ezon_ic_buy_watch_bottom" />
+
+        <ImageView
+            android:id="@+id/ezon_iv_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/ezon_bg_buy_watch"
+            android:layout_alignTop="@+id/ezon_bg_buy_watch"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ezon_ic_close" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
